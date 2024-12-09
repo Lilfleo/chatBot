@@ -1,5 +1,10 @@
 # ChatBot
 
+> **Note importante** : La version fonctionnelle actuelle du projet est la partie `chatbot.py` sans l'interface graphique (GUI). Certaines fonctionnalités comme la tokenisation et la gestion avancée du langage naturel sont en cours de développement et ne sont pas encore complètement fonctionnelles.
+
+
+
+
 ## Chatbot Simple avec Réponses Dynamiques
 
 Ce projet implémente un chatbot interactif avec une interface graphique et un moteur de réponses basé sur un ensemble de règles définies par l'utilisateur. Le bot peut répondre à des questions, donner l'heure actuelle, et gérer des transitions de conversation simples.
@@ -50,7 +55,6 @@ Ce projet implémente un chatbot interactif avec une interface graphique et un m
 
 ---
 
-> **Note importante** : Certaines fonctionnalités sont encore en développement, comme la tokenisation et les capacités avancées de traitement du langage naturel. 
 
 ### Installation :
 
