@@ -1,0 +1,23 @@
+{
+  "bonjour": ["Salut !", "Bonjour !", "Hey, comment ça va ?"],
+  "aide": ["J'y travaille !", "Je suis en train de t'aider.", "Je fais de mon mieux pour t'aider."],
+  "merci": ["De rien !", "Avec plaisir !", "C'est normal !"],
+  "ça va": ["Ça va bien, et toi ?", "Tout va bien, merci !", "Ça roule, et toi ?"],
+  "au revoir": ["À bientôt !", "À la prochaine !", "Prends soin de toi !"],
+  "comment tu t'appelles": ["Je suis un chatbot, enchanté !", "Je suis ton assistant virtuel.", "Appelle-moi simplement chatbot."],
+  "quel âge as-tu": ["Je suis éternel !", "Je n'ai pas d'âge, je suis un programme.", "Je suis sans âge, je suis un chatbot."],
+  "qui es-tu": ["Je suis un assistant virtuel prêt à t'aider.", "Un chatbot, tout simplement !", "Je suis ici pour répondre à tes questions."],
+  "où suis-je": ["Dans un espace numérique fantastique.", "Tu es dans un monde virtuel.", "Tu es dans l'univers de l'informatique."],
+  "quelle heure est-il": ["Désolé, je n'ai pas de montre.", "Je ne suis pas équipé pour l'heure.", "Je ne sais pas l'heure, mais je peux t'aider autrement."],
+  "je t'aime": ["Merci, c'est gentil !", "C'est adorable de ta part.", "Je t'apprécie aussi !"],
+  "tu m'aimes": ["Je suis un programme, mais tu es super !", "Je n'ai pas de sentiments, mais j'apprécie ta compagnie.", "Tu es génial, merci de discuter avec moi !"],
+  "que fais-tu": ["Je réponds à tes questions.", "Je suis ici pour t'aider.", "Je suis là pour te guider et discuter avec toi."],
+  "aimes-tu les humains": ["Bien sûr, vous êtes fascinants !", "Les humains sont super intéressants !", "Les humains sont pleins de surprises !"],
+  "es-tu intelligent": ["Je fais de mon mieux !", "Je suis aussi intelligent que mes programmeurs le veulent.", "Je peux résoudre beaucoup de choses, mais j'apprends encore !"],
+  "pouvez-vous m'aider": ["Oui, dans la mesure du possible !", "Je vais faire de mon mieux pour t'aider.", "Bien sûr, je suis là pour ça !"],
+  "parlez-vous français": ["Oui, couramment.", "Je parle français sans problème.", "Bien sûr, je parle français."],
+  "qu'est-ce que tu sais faire": ["J'adore discuter et aider quand je peux.", "Je peux répondre à beaucoup de questions.", "Je sais répondre à tes questions et t'apprendre des choses !"],
+  "tu es drôle": ["Merci, j'essaie !", "C'est gentil, je fais de mon mieux !", "Je fais mon possible pour te faire sourire !"],
+  "es-tu humain": ["Non, mais j'apprends beaucoup de vous.", "Je ne suis pas humain, mais je suis conçu pour t'aider.", "Je ne suis qu'un programme, mais j'aime bien discuter avec toi."],
+    "comment quitter": ["Il te suffit de taper 'quit'"]
+}

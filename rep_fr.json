@@ -1,0 +1,134 @@
+{
+    "choose_language": {
+        "response": ["Quelle langue préfères-tu ? (français/english)"],
+        "transitions": {
+            "français": "hall",
+            "english": "hall_english"
+        }
+    },
+ "hall": {
+        "response": ["Je n'ai pas compris. Peux-tu reformuler ?"],
+        "transitions": {}
+  },
+  "bonjour": {
+    "response": ["Salut ! Comment ça va ?"],
+    "transitions": {
+      "oui": "positiveresponse",
+      "non": "negativeresponse"
+    }
+  },
+  "positiveresponse": {
+    "response": ["C'est super de l'entendre ! Que puis-je faire pour toi ?"],
+    "transitions": {}
+  },
+  "negativeresponse": {
+    "response": [
+      "Oh, désolé de l'entendre. Veux-tu en parler ?"],
+    "transitions": {}
+  },
+  "aide": {
+    "response": ["J'y travaille !", "Je suis en train de t'aider.", "Je fais de mon mieux pour t'aider."],
+    "transitions": {
+      "merci": "merci",
+      "au revoir": "au_revoir"
+    }
+  },
+  "merci": {
+    "response": ["De rien !", "Avec plaisir !", "C'est normal !"],
+    "transitions": {
+      "au revoir": "au_revoir",
+      "ça va": "ça_va"
+    }
+  },
+"ça_va": {
+    "response": ["Ça va bien, et toi ?", "Tout va bien, merci !", "Ça roule, et toi ?"],
+    "transitions": {
+        "ca va": "ça_va",
+        "et toi":"ça_va",
+        "aide": "aide",
+        "merci": "merci",
+        "au revoir": "au_revoir"
+    }
+  },
+  "au_revoir": {
+    "response": ["À bientôt !", "À la prochaine !", "Prends soin de toi !"],
+    "transitions": {}
+  },
+  "comment_t_appelles": {
+    "response": ["Je suis un chatbot, enchanté !", "Je suis ton assistant virtuel.", "Appelle-moi simplement chatbot."],
+    "transitions": {
+      "qui es-tu": "qui_es_tu",
+      "quel âge as-tu": "quel_age_as_tu"
+    }
+  },
+  "quel_age_as_tu": {
+    "response": ["Je suis éternel !", "Je n'ai pas d'âge, je suis un programme.", "Je suis sans âge, je suis un chatbot."],
+    "transitions": {}
+  },
+  "qui_es_tu": {
+    "response": ["Je suis un assistant virtuel prêt à t'aider.", "Un chatbot, tout simplement !", "Je suis ici pour répondre à tes questions."],
+    "transitions": {
+      "où suis-je": "ou_suis_je",
+      "aide": "aide"
+    }
+  },
+  "où_suis_je": {
+    "response": ["Dans un espace numérique fantastique.", "Tu es dans un monde virtuel.", "Tu es dans l'univers de l'informatique."],
+    "transitions": {}
+  },
+  "as_tu_l_heure": {
+    "response": ["Désolé, je n'ai pas de montre.", "Je ne suis pas équipé pour l'heure.", "Je ne sais pas l'heure, mais je peux t'aider autrement."],
+    "transitions": {}
+  },
+  "je_t_aime": {
+    "response": ["Merci, c'est gentil !", "C'est adorable de ta part.", "Je t'apprécie aussi !"],
+    "transitions": {}
+  },
+  "tu_m_aimes": {
+    "response": ["Je suis un programme, mais tu es super !", "Je n'ai pas de sentiments, mais j'apprécie ta compagnie.", "Tu es génial, merci de discuter avec moi !"],
+    "transitions": {}
+  },
+  "que_fais_tu": {
+    "response": ["Je réponds à tes questions.", "Je suis ici pour t'aider.", "Je suis là pour te guider et discuter avec toi."],
+    "transitions": {}
+  },
+  "aimes_tu_les_humains": {
+    "response": ["Bien sûr, vous êtes fascinants !", "Les humains sont super intéressants !", "Les humains sont pleins de surprises !"],
+    "transitions": {}
+  },
+  "es_tu_intelligent": {
+    "response": ["Je fais de mon mieux !", "Je suis aussi intelligent que mes programmeurs le veulent.", "Je peux résoudre beaucoup de choses, mais j'apprends encore !"],
+    "transitions": {}
+  },
+  "pouvez_vous_m_aider": {
+    "response": ["Oui, dans la mesure du possible !", "Je vais faire de mon mieux pour t'aider.", "Bien sûr, je suis là pour ça !"],
+    "transitions": {
+      "merci": "merci",
+      "aide": "aide"
+    }
+  },
+  "parlez_vous_francais": {
+    "response": ["Oui, couramment.", "Je parle français sans problème.", "Bien sûr, je parle français."],
+    "transitions": {}
+  },
+  "qu_est_ce_que_tu_sais_faire": {
+    "response": ["J'adore discuter et aider quand je peux.", "Je peux répondre à beaucoup de questions.", "Je sais répondre à tes questions et t'apprendre des choses !"],
+    "transitions": {}
+  },
+  "tu_es_drole": {
+    "response": ["Merci, j'essaie !", "C'est gentil, je fais de mon mieux !", "Je fais mon possible pour te faire sourire !"],
+    "transitions": {}
+  },
+  "es_tu_humain": {
+    "response": ["Non, mais j'apprends beaucoup de vous.", "Je ne suis pas humain, mais je suis conçu pour t'aider.", "Je ne suis qu'un programme, mais j'aime bien discuter avec toi."],
+    "transitions": {}
+  },
+  "comment_quitter": {
+    "response": ["Il te suffit de taper 'quit'"],
+    "transitions": {}
+  },
+  "quoi": {
+    "response": ["ffeur", "coubé"],
+    "transition":{}
+  }
+}
